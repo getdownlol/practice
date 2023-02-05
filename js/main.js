@@ -1,58 +1,6 @@
 
 "use strict"
 
-   
-        
-       
-            //   const  wrapper = document.querySelector(".wrapper")
-                  
-                  const wrapper = document.querySelectorAll(".wrapper");
-                            
-                            // button = document.getElementsByClassName("btn");
-                            // box = document.getElementById("box");
-                        
-
-
-                          
-             
-
-
-
-
-                const div = document.createElement("div");
-                div.classList.add("oval");
-                document.body.append(div);
-                div.innerHTML = "<h1>Привет зай</h1>";
-                div.insertAdjacentHTML("beforeend", "<h2>hello</h2>");
-                // div.textContent = "я богатая";
-
-                
-                        
-        // figure[0].after(div);
-
-
-    
-            
-        // parallelogram.forEach (item => {
-        //     item.style.backgroundColor ="green";
-        // } );
-      
-        
-    
-
-  
-    
-
-
-  
-
-
-
-    
-
-
-
-
 // const personalMovieDB = {
 //     count: 0,
 //     movies: {},
@@ -128,7 +76,26 @@
 //        });
 //     }
 // };
-     
+
+const personalMovieDB = {
+    movies : [
+        "Логан",
+        "Лига справедливости",
+        "Ла-Ла Лэнд",
+        "Одержимость",
+        "Скотт Пилигрим против..."
+    ]
+};
+
+
+
+
+const adv = document.querySelectorAll(".promo__adv img");
+    
+    adv.forEach(item => {
+        item.remove();
+    });
+
     
 
    
